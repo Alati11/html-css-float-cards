@@ -8,7 +8,7 @@
    width: 80%;
    height: 200px;
    margin-top: 40px;
-     padding: 30px; 
+   padding: 30px; 
    margin: 0 auto;
    border: 1px solid black;
 }
@@ -23,6 +23,34 @@
 .text-header{
     margin: auto;
     text-align: center;
+}
 
+/*conteiner card */
 
+.container {
+	max-height: px;
+	margin: 0 auto;
+    padding: 50px;
+}
+
+.col {
+	float: left;
+	width: calc((100% - 60px) / 3);
+	/* margin-right: 20px; */
+    
+}
+
+.clearfix::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.card {
+	border: 1px solid;
+	padding: 20px;
+}
+img {
+	max-width: 30%;
+    
 }
